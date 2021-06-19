@@ -60,7 +60,7 @@ if __name__ == '__main__':
         in_image = cv2.rectangle(in_image, (x, y), (x+w, y+h), 255, 2)
    '''
     
-    
+    '''
     img = cv2.cvtColor(in_image.astype(np.uint8), cv2.COLOR_BGR2RGB)
     img = cv2.GaussianBlur(img,(5,5), 0)
     plt.imshow(img)
@@ -96,8 +96,8 @@ if __name__ == '__main__':
 
     plt.imshow(Line, cmap='gray')
     plt.show()
-    
-    #image_resize_without_mask(input_image, output_image, new_height, new_width)
+    '''
+    image_resize_without_mask(input_image, output_image, new_height, new_width)
     image_resize_without_mask1(input_image, output_image1, new_height, new_width)
     
     #image_resize_with_mask(input_image, output_image, new_height, new_width, input_mask)
